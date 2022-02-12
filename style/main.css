@@ -1,0 +1,260 @@
+@font-face {
+    font-family: "Graphik LC T";
+    src: url('../fonts/GraphikLCG-Regular.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Graphik LC TT";
+    src: url('../fonts/GraphikLCG-Semibold.ttf');
+    font-weight: 600;
+}
+
+.subheader{
+    padding: 129px 0 172px 0;
+}
+
+.subheader__info {
+    display: flex;
+}
+
+.subheader__info__title {
+    font-family: "Graphik LC TT";
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
+}
+
+.subheader__info__subtitle {
+    font-family: "Graphik LC T";
+    font-size: 26px;
+    line-height: 35px;
+    color: #000000;
+    padding-top: 51px;
+}
+
+.subheader__info__button-orange {
+    width: 160px;
+    height: 60px;
+    background: #FF6336;
+    border: none;
+    font-family: "Graphik LC TT";
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-right: 10px;
+    transition: 0.5s ease;
+}
+
+.subheader__info__button-orange:hover {
+    background: #ff6236db;
+}
+
+.subheader__info__button-white {
+    width: 160px;
+    height: 60px;
+    background-color: white;
+    font-family: "Graphik LC TT";
+    font-size: 16px;
+    text-align: center;
+    color: #000000;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.subheader__info__button-white:hover {
+    background:#FF6336;
+}
+
+.subheader__info__trial {
+    font-family: "Graphik LC T";
+    font-size: 15px;
+    line-height: 25px;
+    color: #000000;
+    padding-top: 25px;
+}
+
+.partner {
+    padding: 108px 0 103px 0;
+    background: #FF9C7D;
+}
+
+.partner__info__title {
+    font-family: "Graphik LC TT";
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    color: #000000;
+}
+
+.partner__info__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:81px;
+}
+
+.project {
+    padding: 90px 0 150px 0;
+}
+
+.project__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    margin-top: 250px;
+}
+
+.project__info__header {
+    width: 40%;
+}
+
+.project__info__title {
+    font-family: "Graphik LC TT";
+    font-size: 50px;
+    line-height: 60px;
+    color: #000000;
+}
+
+.project__info__text {
+    font-family: "Graphik LC T";
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    padding-top: 30px;
+}
+
+.project__info__start {
+    font-family: "Graphik LC TT";
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    padding-top: 30px;
+}
+
+.delete-margin {
+    margin-top: 0;
+}
+
+.lokalize{
+    padding: 120px 0 147px 0;
+    background: #FFF8E4;
+}
+
+.lokalize__info__title {
+    font-family: "Graphik LC TT";
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    color: #000000;
+}
+
+.localize__info__item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.lokalize__info__list {
+    text-align: center;
+    width: 330px;
+    height: 294px;
+    margin-top: 75px;
+}
+
+.lokalize__info__subtitle {
+    font-family:" Graphik LC TT";
+    font-size: 25px;
+    line-height: 35px;
+    text-align: center;
+    color: #000000;
+}
+
+.lokalize__info__text {
+    font-family: "Graphik LC T";
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #000000;
+    padding-top: 20px;
+}
+
+.teams {
+    padding: 154px 0 187px 0;
+}
+
+.teams__info__title {
+    font-family: "Graphik LC TT";
+    font-size: 50px;
+    line-height: 60px;
+    color: #000000;
+}
+
+.teams__info__item {
+    display: flex;
+    align-items: baseline;
+}
+
+.teams__info__list {
+    margin-top: 75px;
+}
+
+.teams__info__subtitle {
+    font-family: "Graphik LC TT";
+    font-size: 30px;
+    line-height: 40px;
+    color: #000000;
+    padding-top: 49px;
+}
+
+.teams__info__text {
+    font-family: "Graphik LC T";
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+    padding-top: 34px;
+}
+
+.teams__info__subtext {
+    padding-top: 25px;
+    font-family: "Graphik LC T";
+    font-size: 20px;
+    line-height: 30px;
+    text-decoration-line: underline;
+    color: #000000;
+}
+
+.revolut {
+    padding: 53px 0 105px 0;
+    background: #C9E8F2;
+}
+
+.revolut__info {
+    display: flex;
+}
+
+.revolut__info__subtitle{
+    font-family: "Graphik LC T";
+    font-size: 30px;
+    line-height: 40px;
+    color: #000000;
+}
+
+.revolut__info__position {
+    padding-top: 23px;
+    font-family: "Graphik LC T";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 25px;
+    color: #000000;
+}
+
+.revolut__info__image {
+    margin-left: 85px;
+}
+
+

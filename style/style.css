@@ -1,0 +1,100 @@
+@font-face {
+    font-family: "Graphik LC T";
+    src: url('../fonts/GraphikLCG-Regular.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Graphik LC TT";
+    src: url('../fonts/GraphikLCG-Semibold.ttf');
+    font-weight: 600;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    background: #FFFFFF;
+    border-bottom: 1px solid black;
+    padding: 25px 0;
+}
+
+.container {
+    max-width: 1290px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__nav .header__nav-logo {
+    margin-right: 51px;
+}
+
+.header__nav__menu__item a {
+    font-family: "Graphik LC T";
+    font-size: 15px;
+    line-height: 20px;
+    color: #000000;
+    text-decoration: none;
+    padding-left: 50px;
+    transition: 0.3s ease;
+}
+
+.header__nav__menu__item a:hover {
+    color:#FF6336;
+}
+
+.delete-padding a {
+    padding-right: 0;
+}
+
+.header__button button {
+    width: 120px;
+    height: 45px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.header__button-white {
+    background-color: white;
+    color: #000000;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    font-family:" Graphik LC TT";
+    font-size: 16px;
+    text-align: center;
+    margin-right: 10px;
+    transition: 0.3s ease;
+}
+
+.header__button-white:hover {
+    background-color: #FF6336;
+}
+
+.header__button-orange {
+    background-color: #FF6336;
+    border: none;
+    cursor: pointer;
+    font-family: "Graphik LC TT";
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    transition: 0.3s ease;
+}
+
+.header__button-orange:hover {
+    background-color: #ff623692;
+}
+
+
