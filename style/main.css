@@ -133,6 +133,7 @@
     line-height: 30px;
     color: #000000;
     padding-top: 30px;
+    cursor: pointer;
 }
 
 .delete-margin {
@@ -225,6 +226,7 @@
     line-height: 30px;
     text-decoration-line: underline;
     color: #000000;
+    cursor: pointer;
 }
 
 .revolut {
@@ -257,4 +259,136 @@
     margin-left: 85px;
 }
 
+.rate {
+    padding: 90px 0 88px 0;
+    background: #DABC98;
+}
 
+.rate__info {
+    display: flex;
+    align-items: center;
+}
+
+.rate__info__title {
+    font-family: "Graphik LC TT";
+    font-size: 35px;
+    line-height: 50px;
+    color: #000000;
+    margin-left: 67px;
+}
+
+.rate__info__vertical-hr {
+    border-left: 2px solid black;
+    height: 168px;
+    margin-left: 124px;
+}
+
+.rate__info__line {
+    display: flex;
+}
+
+
+.rate__info__line__partners {
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+}
+
+.rate__info__line__partners-star {
+    padding-top: 20px;
+}
+
+.rate__info__line__partners__users {
+    font-family: "Graphik LC T";
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0.75px;
+    color: #000000;
+    padding-top: 15px;
+}
+
+.tools {
+    padding: 165px 0 162px 0;
+}
+
+.tools__info {
+    text-align: center;
+}
+
+.tools__info__title {
+    font-family: "Graphik LC TT";
+    font-size: 65px;
+    line-height: 75px;
+    color: #000000;
+}
+
+.tools__info__text {
+    font-family: "Graphik LC T";
+    font-size: 25px;
+    line-height: 30px;;
+    color: #000000;
+}
+
+.tools__info__image {
+    text-align: center
+}
+
+.tools__info__button {
+    width: 193px;
+    height: 60px;
+    background: #FF6336;
+    border-radius: 0px;
+    font-family: "Graphik LC TT";
+    font-size: 16px;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin-top: 32px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.tools__info__button:hover {
+    background: #FF9C7D;
+}
+
+.trial {
+    background: #FF9C7D;
+    padding: 119px 0 161px 0;
+}
+
+.trial__info {
+    text-align: center;
+}
+
+.trial__info_title {
+    font-family: "Graphik LC TT";
+    font-size: 65px;
+    line-height: 75px;
+    color: #000000;
+}
+
+.trial__info__text {
+    padding-top: 29px;
+    font-family: "Graphik LC T";
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.trial__info__button {
+    margin-top: 54px;
+    background: #000000;
+    border-radius: 0px;
+    width: 160px;
+    height: 60px;
+    font-family: "Graphik LC TT";
+    font-size: 17px;
+    line-height: 60px;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.trial__info__button:hover {
+    background: #000000b4;
+}
