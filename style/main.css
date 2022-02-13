@@ -1,15 +1,3 @@
-@font-face {
-    font-family: "Graphik LC T";
-    src: url('../fonts/GraphikLCG-Regular.ttf');
-    font-weight: 400;
-}
-
-@font-face {
-    font-family: "Graphik LC TT";
-    src: url('../fonts/GraphikLCG-Semibold.ttf');
-    font-weight: 600;
-}
-
 .subheader{
     padding: 129px 0 172px 0;
 }
