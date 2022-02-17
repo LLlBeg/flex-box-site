@@ -1,0 +1,359 @@
+@media (max-width: 1290px) {
+    .container {
+        padding: 0 15px;
+        flex-direction: column;
+    }
+    
+    .header__nav .header__nav-logo {
+        margin-right: 0px;
+    }
+
+    .header__nav__menu__item a {
+        padding-left: 20px;
+    }
+
+    .header__button {
+        margin-top: 10px;
+    }
+
+    .header__button button {
+        width: 270px;
+        font-size: 20px;
+    }
+
+    .header__button-white {
+        margin-bottom: 10px;
+    }
+
+    .subheader {
+        padding: 20px 0;
+    }
+        
+    .subheader__info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .subheader__info__text {
+        text-align: center;
+    }
+
+    .partner {
+        padding: 20px 0;
+    }
+
+    .partner__info__title {
+        text-align: center;
+    }
+
+    .partner__info__list {
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: 15px;
+    }
+
+    .partner__info__list a {
+        padding: 25px 25px ;
+    }
+
+    .project {
+        padding: 20px 0;
+    }
+
+    .project__info {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    .project__info__header{
+        width: 100vmin;
+    }
+
+    .project__info__title {
+        margin-top: 20px;
+    }
+
+    .project__info img {
+        margin-top: 20px;
+    }
+
+    .lokalize {
+        padding: 20px 0;
+    }
+
+    .localize__info__item {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .teams {
+        padding: 20px 0;
+    }
+
+    .teams__info__title {
+        text-align: center;
+    }
+
+    .teams__info__item {
+        flex-wrap: wrap;
+    }
+
+    .teams__info__list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .teams__info__list img {
+        width: 179px;
+        height: 201px;
+    }
+
+    .teams__info__text {
+        text-align: center;
+        width: 75%;
+    }
+
+    .revolut {
+        padding: 20px 0;
+    }
+
+    .revolut__info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .revolut__info__item {
+        text-align: center;
+    }
+
+    .revolut__info__image {
+        margin: 10px 10px;
+    }
+
+    .revolut__info a {
+        margin-top: 10px;
+    }
+
+    .rate {
+        padding: 20px 0;
+    }
+    
+    .rate__info {
+        flex-direction: column;
+    }
+
+    .rate__info img {
+        margin-bottom: 10px;
+    }
+
+    .rate__info__vertical-hr {
+        display: none;
+    }
+
+    .rate__info__title {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .rate__info__line__partners {
+        margin: 10px;
+        align-items: center;
+    }
+    
+    .tools {
+        padding: 20px 0;
+    }
+
+    .tools__info__image img {
+        width: 100%;
+    }
+    
+    .tools__info__text {
+        padding-top: 10px;
+    }
+
+    .trial {
+        padding: 20px 0;
+    }
+
+    .trial__info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tabs {
+        padding: 20px 0;
+    }
+
+    .tabs__info {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .tabs__info__item {
+        width: 50%;
+        align-items: center;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 770px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    .header__nav  {
+        flex-direction: column;
+    }
+
+    .header__nav-logo {
+        margin-bottom: 10px;
+    }
+
+    .header__nav__menu__item a {
+        padding-left: 27px;
+    }
+
+    .header__button {
+        margin-top: 10px;
+        flex-direction: column;
+        display: flex;
+    }
+
+    .header__button-white {
+        margin-bottom: 10px;
+    }
+
+    .subheader__info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .subheader__info__text {
+        text-align: center;
+    }
+    
+    .subheader__info img {
+        width: 100%;
+    }
+
+    .partner__info__title {
+        font-size: 50px;
+        line-height: 55px;
+    }
+
+    .project__info img {
+        width: 100%;
+    }
+    
+    .tools__info__title{
+        font-size: 50px;
+        line-height: 65px;
+    }
+
+    .tabs__info {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .tabs__info__item {
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .tabs__info__image {
+        width: 100%;
+        height: 100%;
+    }
+
+    .tabs__info__end {
+        margin-top: 10px;
+    }
+
+    .tabs__info__end__logo {
+        width: 50%;
+        height: 50%;
+    }
+
+    .tabs__info__end__text {
+        padding: 10px 0;
+    }
+    
+    .tabs__info__end__items {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tabs__info__end__list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 510px) {
+
+    .header__nav__menu__list {
+        flex-direction: column;
+        align-items: baseline;
+    }
+
+    .header__nav__menu__item {
+        padding-top: 10px;
+    }
+    
+    .subheader__info__title {
+        font-size: 52px;
+        line-height: 50px;
+    }
+
+    .subheader__info__subtitle {
+        padding-top: 20px;
+    }
+
+    .subheader__info__button-orange {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .subheader__info__button-white {
+        width: 100%;
+    }
+
+    .partner__info__title {
+        font-size: 45px;
+        line-height: 55px;
+    }
+    
+    .rate__info__line {
+        flex-direction: column;
+    }
+
+    .tools__info__title {
+        font-size: 34px;
+        line-height: 49px;
+    }
+    
+    .trial__info_title {
+        font-size: 50px;
+        line-height: 55px;
+    }
+
+    .tabs__info__end__items {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .tabs__info__end__list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
